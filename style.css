@@ -522,3 +522,22 @@ p{margin:0 0 1em;}
   html{scroll-behavior:auto;}
   *{transition:none!important;}
 }
+
+.hero-mark{
+  width:100%;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.hero-mark img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+@media (max-width:520px){
+  .hero-mark{
+    width:340px;
+    max-width:100%;
+  }
+}
