@@ -541,3 +541,21 @@ p{margin:0 0 1em;}
     max-width:100%;
   }
 }
+
+@media (max-width:520px){
+  .hero-mark{
+    width:340px !important;
+    height:340px !important;
+    max-width:calc(100vw - 44px) !important;
+    margin:0 auto !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .hero-mark img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:contain !important;
+  }
+}
