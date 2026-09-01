@@ -457,7 +457,7 @@ p{margin:0 0 1em;}
 .project-steps-heading h1{margin-top:18px;font-size:clamp(34px,4vw,48px);font-weight:500;line-height:1.1;}
 .project-steps-full{max-width:900px;margin:0 auto;border-top:1px solid var(--line);}
 .project-page-image{margin:0;overflow:hidden;background:var(--paper-deep);}
-.project-page-image img{width:100%;aspect-ratio:4/3;object-fit:cover;}
+.project-page-image img{width:100%;height:auto;object-fit:contain;}
 .project-page-content{display:grid;grid-template-columns:1.4fr .6fr;gap:80px;padding:64px 72px 0;}
 .project-page-copy{font-size:21px;color:var(--ink-soft);}
 .project-page-copy p{margin:0 0 28px;}
