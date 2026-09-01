@@ -448,15 +448,15 @@ p{margin:0 0 1em;}
 .project-back-link{font-family:var(--mono);font-size:12px;color:var(--ink-soft);}
 .project-back-link:hover{color:var(--sea);}
 .project-page-main{max-width:var(--max);margin:0 auto;padding:80px 32px 110px;}
-.project-page-hero{display:grid;grid-template-columns:.82fr 1.18fr;gap:54px;align-items:center;padding-bottom:64px;border-bottom:1px solid var(--line);}
+.project-page-hero{display:grid;grid-template-columns:.95fr 1.05fr;gap:62px;align-items:center;padding-bottom:72px;border-bottom:1px solid var(--line);}
 .project-page-heading{padding-left:72px;position:relative;}
 .project-page-number{position:absolute;left:0;top:3px;font-family:var(--mono);font-size:14px;color:var(--sea);}
-.project-page-heading h1{font-size:clamp(34px,3.8vw,50px);font-weight:500;line-height:1.08;margin:20px 0 18px;}
+.project-page-heading h1{max-width:18ch;font-size:clamp(34px,3.3vw,46px);font-weight:500;line-height:1.1;margin:20px 0 18px;}
 .project-page-lede{font-size:22px;color:var(--ink-soft);margin:0;}
 .project-steps-heading{padding-left:0;max-width:900px;margin:0 auto 50px;}
 .project-steps-heading h1{margin-top:18px;font-size:clamp(34px,4vw,48px);font-weight:500;line-height:1.1;}
 .project-steps-full{max-width:900px;margin:0 auto;border-top:1px solid var(--line);}
-.project-page-image{margin:0;overflow:hidden;background:var(--paper-deep);}
+.project-page-image{margin:0;overflow:hidden;background:var(--paper-deep);border:1px solid var(--line);}
 .project-page-image img{width:100%;height:auto;object-fit:contain;}
 .project-page-content{display:grid;grid-template-columns:1.4fr .6fr;gap:80px;padding:64px 72px 0;}
 .project-page-copy{font-size:21px;color:var(--ink-soft);}
