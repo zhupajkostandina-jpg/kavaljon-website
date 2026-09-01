@@ -448,7 +448,7 @@ p{margin:0 0 1em;}
 .project-back-link{font-family:var(--mono);font-size:12px;color:var(--ink-soft);}
 .project-back-link:hover{color:var(--sea);}
 .project-page .site-header{background:var(--sea-deep);border-bottom-color:rgba(242,236,221,.18);}
-.project-page .brand-name{color:var(--paper);}
+.project-page .brand-name{color:var(--paper);font-weight:700;}
 .project-page .main-nav a{color:rgba(242,236,221,.78);}
 .project-page .main-nav a:hover{color:var(--paper);}
 .project-page .nav-cta{border-color:rgba(242,236,221,.7);color:var(--paper)!important;}
@@ -456,6 +456,7 @@ p{margin:0 0 1em;}
 .project-page .nav-toggle span{background:var(--paper);}
 .project-back-link-page{display:inline-block;margin-bottom:16px;}
 .project-page-main{max-width:var(--max);margin:0 auto;padding:38px 32px 110px;}
+.project-detail-page{padding-bottom:48px;}
 .project-page-hero{display:grid;grid-template-columns:.95fr 1.05fr;gap:62px;align-items:center;padding-bottom:72px;border-bottom:1px solid var(--line);}
 .project-page-heading{padding-left:72px;position:relative;}
 .project-page-number{position:absolute;left:0;top:3px;font-family:var(--mono);font-size:14px;color:var(--sea);}
@@ -471,9 +472,12 @@ p{margin:0 0 1em;}
 .project-page-copy p{margin:0 0 28px;}
 .project-page-budget-label{font-family:var(--mono);font-size:12px!important;letter-spacing:.08em;text-transform:uppercase;color:var(--sea);margin-bottom:8px!important;}
 .project-page-budget{display:block;font-family:var(--display);font-size:34px;color:var(--ink);margin-bottom:30px;}
+.project-application-deadline{display:flex;align-items:center;gap:16px;margin-top:26px!important;padding-top:18px;border-top:1px solid var(--line);font-family:var(--body);font-size:20px!important;letter-spacing:0;color:var(--ink);}
+.project-application-deadline span{font-family:var(--mono);color:var(--sea);font-size:12px;letter-spacing:.1em;text-transform:uppercase;}
 .project-page-download{border-left:3px solid var(--brass);padding:8px 0 8px 24px;align-self:start;}
 .project-page-download .btn{margin-top:4px;}
 .project-download-note{font-size:14px;color:var(--ink-soft);margin:18px 0 0!important;}
+.project-download-note{display:none;}
 .project-download-note code{font-family:var(--mono);font-size:11px;}
 .project-page-footer{background:var(--sea-deep);}
 
