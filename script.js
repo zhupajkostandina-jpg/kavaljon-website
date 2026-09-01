@@ -25,10 +25,20 @@ document.addEventListener('DOMContentLoaded', function () {
     'project-etapa-05.html': 'documents/ToRs%203%20guida.pdf',
     'project-etapa-06.html': 'documents/ToRs%20aktiviteti%20permbylles.pdf'
   };
+  var pageNumberElement = document.querySelector('.project-page-number');
+  var documentByNumber = {
+    '01': 'documents/ToR%20Sherbim%20fotografik.pdf',
+    '02': 'documents/ToR%20Dizajn%20dhe%20fushata%20digjitale.pdf',
+    '03': 'documents/ToR%20Printimet.pdf',
+    '04': 'documents/ToRs%20per%205%20vizitat.pdf',
+    '05': 'documents/ToRs%203%20guida.pdf',
+    '06': 'documents/ToRs%20aktiviteti%20permbylles.pdf'
+  };
   var currentPage = window.location.pathname.split('/').pop();
-  if (documentByPage[currentPage]) {
+  var documentPath = documentByPage[currentPage] || (pageNumberElement && documentByNumber[pageNumberElement.textContent.trim()]);
+  if (documentPath) {
     documentLinks.forEach(function (link) {
-      link.href = documentByPage[currentPage];
+      link.href = documentPath;
     });
   }
 
@@ -41,7 +51,6 @@ document.addEventListener('DOMContentLoaded', function () {
     'project-etapa-05.html': 'images/foto%205.png',
     'project-etapa-06.html': 'images/foto%206.jpeg'
   };
-  var pageNumberElement = document.querySelector('.project-page-number');
   var imageByNumber = {
     '01': 'images/foto%201.png',
     '02': 'images/foto%202.png',
