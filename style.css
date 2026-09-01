@@ -447,8 +447,8 @@ p{margin:0 0 1em;}
 .step-detail-link:hover span{transform:translateX(4px);}
 .project-back-link{font-family:var(--mono);font-size:12px;color:var(--ink-soft);}
 .project-back-link:hover{color:var(--sea);}
-.project-back-link-page{display:inline-block;margin-bottom:42px;}
-.project-page-main{max-width:var(--max);margin:0 auto;padding:80px 32px 110px;}
+.project-back-link-page{display:inline-block;margin-bottom:16px;}
+.project-page-main{max-width:var(--max);margin:0 auto;padding:38px 32px 110px;}
 .project-page-hero{display:grid;grid-template-columns:.95fr 1.05fr;gap:62px;align-items:center;padding-bottom:72px;border-bottom:1px solid var(--line);}
 .project-page-heading{padding-left:72px;position:relative;}
 .project-page-number{position:absolute;left:0;top:3px;font-family:var(--mono);font-size:14px;color:var(--sea);}
