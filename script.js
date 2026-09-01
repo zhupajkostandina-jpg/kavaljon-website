@@ -16,31 +16,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  var projectModal = document.querySelector('#project-modal');
-  var projectLinks = document.querySelectorAll('.project-details-link');
-
-  function closeProjectDetails() {
-    if (!projectModal) return;
-    projectModal.classList.remove('is-open');
-    projectModal.setAttribute('aria-hidden', 'true');
-    document.body.classList.remove('project-modal-open');
-  }
-
-  if (projectModal) {
-    projectLinks.forEach(function (link) {
-      link.addEventListener('click', function (event) {
-        event.preventDefault();
-        projectModal.classList.add('is-open');
-        projectModal.setAttribute('aria-hidden', 'false');
-        document.body.classList.add('project-modal-open');
-      });
-    });
-
-    projectModal.querySelectorAll('[data-close-project]').forEach(function (element) {
-      element.addEventListener('click', closeProjectDetails);
-    });
-    document.addEventListener('keydown', function (event) {
-      if (event.key === 'Escape') closeProjectDetails();
-    });
-  }
 });
