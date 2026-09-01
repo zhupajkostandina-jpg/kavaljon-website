@@ -453,6 +453,10 @@ p{margin:0 0 1em;}
 .project-step h3{font-size:24px;margin:0 0 6px;}
 .project-step p{color:var(--ink-soft);font-size:16px;margin:0 0 8px;}
 .project-step strong{font-family:var(--mono);font-size:12px;letter-spacing:.03em;color:var(--ink);}
+.step-detail-link{display:block;width:max-content;margin-top:14px;font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--ink);border-bottom:1px solid var(--line-strong);padding-bottom:3px;transition:color .2s ease,border-color .2s ease;}
+.step-detail-link span{display:inline-block;margin-left:5px;transition:transform .2s ease;}
+.step-detail-link:hover{color:var(--sea);border-color:var(--sea);}
+.step-detail-link:hover span{transform:translateX(4px);}
 .project-detail-footer{margin-top:34px;padding-top:24px;border-top:1px solid var(--line);}
 .project-detail-footer .btn{margin-top:4px;}
 body.project-modal-open{overflow:hidden;}
