@@ -447,6 +447,13 @@ p{margin:0 0 1em;}
 .step-detail-link:hover span{transform:translateX(4px);}
 .project-back-link{font-family:var(--mono);font-size:12px;color:var(--ink-soft);}
 .project-back-link:hover{color:var(--sea);}
+.project-page .site-header{background:var(--sea-deep);border-bottom-color:rgba(242,236,221,.18);}
+.project-page .brand-name{color:var(--paper);}
+.project-page .main-nav a{color:rgba(242,236,221,.78);}
+.project-page .main-nav a:hover{color:var(--paper);}
+.project-page .nav-cta{border-color:rgba(242,236,221,.7);color:var(--paper)!important;}
+.project-page .nav-cta:hover{background:var(--paper);color:var(--sea-deep)!important;}
+.project-page .nav-toggle span{background:var(--paper);}
 .project-back-link-page{display:inline-block;margin-bottom:16px;}
 .project-page-main{max-width:var(--max);margin:0 auto;padding:38px 32px 110px;}
 .project-page-hero{display:grid;grid-template-columns:.95fr 1.05fr;gap:62px;align-items:center;padding-bottom:72px;border-bottom:1px solid var(--line);}
@@ -455,7 +462,7 @@ p{margin:0 0 1em;}
 .project-page-heading h1{max-width:18ch;font-size:clamp(34px,3.3vw,46px);font-weight:500;line-height:1.1;margin:20px 0 18px;}
 .project-page-lede{font-size:22px;color:var(--ink-soft);margin:0;}
 .project-steps-heading{padding-left:0;max-width:900px;margin:0 auto 50px;}
-.project-steps-heading h1{margin-top:18px;font-size:clamp(34px,4vw,48px);font-weight:500;line-height:1.1;}
+.project-steps-heading h1{max-width:none;white-space:nowrap;margin-top:18px;font-size:clamp(34px,4vw,48px);font-weight:500;line-height:1.1;}
 .project-steps-full{max-width:900px;margin:0 auto;border-top:1px solid var(--line);}
 .project-page-image{margin:0;overflow:hidden;background:var(--paper-deep);border:1px solid var(--line);}
 .project-page-image img{width:100%;height:auto;object-fit:contain;}
@@ -475,6 +482,7 @@ p{margin:0 0 1em;}
   .project-page-hero,.project-page-content{grid-template-columns:1fr;gap:36px;}
   .project-page-heading,.project-page-content{padding-left:0;padding-right:0;}
   .project-page-heading{padding-left:54px;}
+  .project-steps-heading h1{white-space:normal;}
   .project-page-content{padding-top:40px;}
 }
 
