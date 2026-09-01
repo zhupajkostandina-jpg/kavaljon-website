@@ -412,7 +412,7 @@ p{margin:0 0 1em;}
 /* ============ projects ============ */
 .projects-grid{
   display:grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns:1fr;
   gap:1px;
   background:var(--line);
   border:1px solid var(--line);
