@@ -41,9 +41,19 @@ document.addEventListener('DOMContentLoaded', function () {
     'project-etapa-05.html': 'images/foto%205.png',
     'project-etapa-06.html': 'images/foto%206.jpeg'
   };
-  if (imageByPage[currentPage]) {
+  var pageNumberElement = document.querySelector('.project-page-number');
+  var imageByNumber = {
+    '01': 'images/foto%201.png',
+    '02': 'images/foto%202.png',
+    '03': 'images/foto%203.png',
+    '04': 'images/foto%204.png',
+    '05': 'images/foto%205.png',
+    '06': 'images/foto%206.jpeg'
+  };
+  var imagePath = imageByPage[currentPage] || (pageNumberElement && imageByNumber[pageNumberElement.textContent.trim()]);
+  if (imagePath) {
     projectImages.forEach(function (image) {
-      image.src = imageByPage[currentPage];
+      image.src = imagePath;
     });
   }
 
