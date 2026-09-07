@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
     'project-foto-video.html': assetBase + 'documents/ToR%20Sherbim%20fotografik.pdf',
     'project-dizajn.html': assetBase + 'documents/ToR%20Dizajn%20dhe%20fushata%20digjitale.pdf',
     'project-printime.html': assetBase + 'documents/ToR%20Printimet.pdf',
-    'project-terren.html': assetBase + 'documents/ToRs%20per%205%20vizitat.pdf',
+    'project-terren.html': assetBase + 'documents/ToRs%205%20Vizita_dhe%203%20Guida%20Kavaja%20365%20Experience.pdf',
     'project-etapa-05.html': assetBase + 'documents/ToRs%203%20guida.pdf',
     'project-etapa-06.html': assetBase + 'documents/ToRs%20aktiviteti%20permbylles.pdf'
   };
@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
     '01': assetBase + 'documents/ToR%20Sherbim%20fotografik.pdf',
     '02': assetBase + 'documents/ToR%20Dizajn%20dhe%20fushata%20digjitale.pdf',
     '03': assetBase + 'documents/ToR%20Printimet.pdf',
-    '04': assetBase + 'documents/ToRs%20per%205%20vizitat.pdf',
+    '04': assetBase + 'documents/ToRs%205%20Vizita_dhe%203%20Guida%20Kavaja%20365%20Experience.pdf',
+    '04-05': assetBase + 'documents/ToRs%205%20Vizita_dhe%203%20Guida%20Kavaja%20365%20Experience.pdf',
     '05': assetBase + 'documents/ToRs%203%20guida.pdf',
     '06': assetBase + 'documents/ToRs%20aktiviteti%20permbylles.pdf'
   };
