@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
     'project-foto-video.html': assetBase + 'images/foto%201.png',
     'project-dizajn.html': assetBase + 'images/foto%202.png',
     'project-printime.html': assetBase + 'images/foto%203.png',
-    'project-terren.html': assetBase + 'images/foto%204.png',
+    'project-terren.html': assetBase + 'images/foto%207.jpeg',
     'project-etapa-05.html': assetBase + 'images/foto%205.png',
     'project-etapa-06.html': assetBase + 'images/foto%206.jpeg'
   };
@@ -58,7 +58,8 @@ document.addEventListener('DOMContentLoaded', function () {
     '01': assetBase + 'images/foto%201.png',
     '02': assetBase + 'images/foto%202.png',
     '03': assetBase + 'images/foto%203.png',
-    '04': assetBase + 'images/foto%204.png',
+    '04': assetBase + 'images/foto%207.jpeg',
+    '04-05': assetBase + 'images/foto%207.jpeg',
     '05': assetBase + 'images/foto%205.png',
     '06': assetBase + 'images/foto%206.jpeg'
   };
